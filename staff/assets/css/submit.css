@@ -1,0 +1,32 @@
+body {
+    background-color: #000;
+    font-family: "mc";
+    color: #fff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@font-face {
+    font-family: "mc";
+    src: url("../fonts/regular.otf") format("opentype");
+}
+
+.landing {
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    color: #7700FF;
+    text-decoration: none;
+    transition: ease-in-out .1s;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
